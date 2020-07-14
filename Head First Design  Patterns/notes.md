@@ -51,3 +51,11 @@ Integrating duck behaviour
 
 ###### Design Principle 3
 - Favour composition over inheritance
+
+Composition gives much more flexibility, allows to change behaviour at runtime
+
+#### Strategy Pattern
+- The Strategy Pattern defines a family of algorithms,
+encapsulates each one, and makes them interchangeable. Strategy
+lets the algorithm vary independently from clients that use it.
+

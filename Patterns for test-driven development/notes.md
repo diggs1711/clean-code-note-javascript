@@ -1,0 +1,1 @@
+- write asserts first and work back the way, writing the complete test and then the actual code
