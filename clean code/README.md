@@ -371,3 +371,8 @@ Fix this by creating a derivative of the SQL class for each method and grouping 
 ```
 
 - DIP(Dependency Inversion Principle) class should depend upon abstractions not contrete details
+
+
+## Chapter 11: Systems
+- seperation of concerns
+- Inversion of Control, moves responsibility to other objects
