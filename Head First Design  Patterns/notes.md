@@ -59,3 +59,19 @@ Composition gives much more flexibility, allows to change behaviour at runtime
 encapsulates each one, and makes them interchangeable. Strategy
 lets the algorithm vary independently from clients that use it.
 
+
+### Chaper 2 - Observer Pattern
+- defines a one-to-many dependency between objects so that when
+one object changes state, all of its dependents are notified and updated automatically
+
+##### Design Principle
+- Strive for loosely coupled designs between objects that interact
+- allows us to build flexible OO systems
+
+- seperates things that change(the subject)
+- Program to interface is used in the observer because to be an observer you must implement the Observer
+interface
+
+- Composition over Inheritance =>
+    The observer's subject is composed at runtime
+    The observers are established at runtime
