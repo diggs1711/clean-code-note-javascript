@@ -70,8 +70,28 @@ one object changes state, all of its dependents are notified and updated automat
 
 - seperates things that change(the subject)
 - Program to interface is used in the observer because to be an observer you must implement the Observer
-interface
+interface, while the observers register with a subject interface
 
 - Composition over Inheritance =>
     The observer's subject is composed at runtime
     The observers are established at runtime
+
+
+- Inherit at runtime with composition and delegation
+
+##### Design Principle
+- Classes should be closed modification and open for extension
+
+### The Decorator Pattern
+- attaches additional responsibility to an object dynamically. Decorators provide a flexibile alternative
+    to subclassing for extending functionality
+
+- Flexible, aheres to Open-Close principle
+- Leads lots of small classes which can be difficult to understand
+- Complexity when instantiating components
+
+### Chapter 4 - Factory Pattern
+- more to creating objects than 'new' operator. Use can lead to coupling problems
+- when code is written to an interface, then it will work with any new cases implementing that interface through polymorphism
+- Less concrete classes, promotes coupling between classes => Code will be 'open for modifiction'(Not good!)
+-
